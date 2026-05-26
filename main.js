@@ -3,14 +3,14 @@
     
       const usuario = document.getElementById("nome").value;
       const rm = document.getElementById("rm").value;
-      const botao = document.getElementById("botao");
+      const botao= document.getElementById("botao");
+      const msg = document.getElementById("titulo");
 
       // Usuário e senha fixos
       if(usuario === "Sofia" && rm === "26582"){
-        botao.style.color = "green";
-        botao.innerText = "Login realizado com sucesso!";
+        location.href= "entrada.html";
       } else {
-        botao.style.color = "red";
-        botao.innerText = "Usuário ou senha incorretos!";
+        botao.style.color = " #61023d";
+        botao.innerText = "Nome ou RM incorretos!";
       }
     }

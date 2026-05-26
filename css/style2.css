@@ -1,4 +1,5 @@
 
+     
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ body {
 }
 
 
-#login {
+#conteiner {
     border: 5px;
     background-color: rgba(239, 213, 226, 0.326);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -31,21 +32,15 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 25px;
-    color: #61023d;
+    color: #360021;
+}
+p{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #360021;
 }
 
-input{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    outline: none;
-    transition: 0.3s;
-}
-.input input:focus {
-    border-color: #4facfe;
-    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
-}
+
 button {
     width: 100%;
     padding: 12px;
